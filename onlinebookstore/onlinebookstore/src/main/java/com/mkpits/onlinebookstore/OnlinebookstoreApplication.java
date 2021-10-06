@@ -1,11 +1,11 @@
-package com.mkpits.onlinebookstore.bookstore;
+package com.mkpits.onlinebookstore;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = "com.mkpits.onlinebookstore")
+@ComponentScan("com.mkpits.onlinebookstore")
 public class BookstoreApplication {
 
 	public static void main(String[] args) {
